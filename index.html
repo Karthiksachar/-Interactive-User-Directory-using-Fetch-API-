@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive User Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📋 User Directory</h1>
+
+  <!-- Controls -->
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="🔍 Search by name or email...">
+    <select id="sortSelect">
+      <option value="az">Sort A → Z</option>
+      <option value="za">Sort Z → A</option>
+    </select>
+    <button id="reloadBtn">Reload Data</button>
+  </div>
+
+  <!-- User cards will go here -->
+  <div id="userContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
